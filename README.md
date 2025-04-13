@@ -166,21 +166,7 @@ Login: Use the credentials defined in your `.env` file to log in:
 7. **/update_prompt (POST)**
    - Purpose: Admin can update the system prompt template.
 
-## Troubleshooting
-- **Issue**: `ModuleNotFoundError: No module named 'openai'`
-  - **Solution**: Ensure that you have installed all dependencies by running `pip install -r requirements.txt`.
-  
-- **Issue**: MySQL Connection Error
-  - **Solution**: Make sure that your MySQL server is running and the database credentials are correct in your `.env` file.
-
-## Contributing
-Feel free to fork this repository, submit pull requests, or open issues for any bugs or feature requests.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contact
 For further inquiries, please reach out to the project maintainer at:
-- Email: support@yourdomain.com
-- GitHub: Your GitHub Profile
+- Email: ys0302010@gmail.com
 
