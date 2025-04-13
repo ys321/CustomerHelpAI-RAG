@@ -3,6 +3,8 @@
 
 CustomerHelpAI-RAG is a **Customer Support Agent** powered by **Retrieval-Augmented Generation (RAG)**. It combines conversational AI with information retrieval to assist customers with accurate, context-based answers.
 
+![CustomerHelpAI](https://github.com/user-attachments/assets/6b881c87-f816-40a3-9b51-0a339b15ec1c)
+
 ## Features
 - 🧠 **RAG-based AI**: Combines information retrieval and language generation for accurate answers.
 - 💬 **Support Chat**: A robust chat interface for handling customer support queries.
