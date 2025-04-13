@@ -39,7 +39,7 @@ source venv/bin/activate
 #### Windows:
 ```bash
 python -m venv venv
-.env\Scriptsctivate
+.venv\Scripts\activate
 ```
 
 ### 3. Install Dependencies
@@ -60,7 +60,7 @@ PASSWORD="Test@123"  # User password
 Make sure to replace `sk-...` with your actual OpenAI API key.
 
 ### 5. Set up the MySQL Database
-Ensure you have a MySQL database running and set up the following schema:
+Ensure you have a MySQL server running. Use the provided SQL script `legal_knowledge_base.sql` for creating the necessary tables:
 ```sql
 CREATE DATABASE legal_knowledge_base;
 
@@ -118,14 +118,21 @@ CREATE TABLE prompts (
 );
 ```
 
-### 6. Running the Application
+### 6. Load Knowledge Base Data
+
+Use the provided `kb_data.json` to populate your knowledge base. This file contains sample intents, keywords, and step-wise instructions for RAG responses.
+
+> Refer to the file `kb_data.json` in the repository for sample knowledge base content.
+
+
+### 7. Running the Application
 To run the Flask application, use the following command:
 ```bash
 python app.py
 ```
 The app will run on http://0.0.0.0:5000.
 
-### 7. Access the Application
+### 8. Access the Application
 Login: Use the credentials defined in your `.env` file to log in:
 - Admin: Test / Admin@123
 - User: User / Test@123
