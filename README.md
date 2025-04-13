@@ -118,7 +118,7 @@ CREATE TABLE prompts (
 );
 ```
 
-### 6. Load Knowledge Base Data
+### 6. Load Knowledge Base Data (Reference)
 
 Use the provided `kb_data.json` to populate your knowledge base. This file contains sample intents, keywords, and step-wise instructions for RAG responses.
 
