@@ -1,0 +1,306 @@
+[
+    {
+        "title": "Streaming Issues - Playback Error",
+        "intent": "troubleshoot_playback_error",
+        "category": "Streaming",
+        "keywords": [
+            "can't play video",
+            "playback error",
+            "streaming not working",
+            "video stuck",
+            "netflix playback issue"
+        ],
+        "content": {
+            "summary": "Playback issues may occur due to device problems, slow internet, or account restrictions.",
+            "details": [
+                "Restart your device and relaunch Netflix.",
+                "Check your internet speed (minimum 3 Mbps for SD, 5 Mbps for HD).",
+                "Log out and log back in to refresh your session.",
+                "If the issue persists, clear cache or reinstall the app."
+            ],
+            "response_template": "Sorry you're having trouble streaming! Please restart your device and check your internet speed. Try logging out and back in, or reinstalling the app if needed. Let me know if it continues!"
+        },
+        "metadata": {
+            "audience": "customer_service",
+            "priority": "high"
+        }
+    },
+    {
+        "title": "Account Locked - Too Many Login Attempts",
+        "intent": "account_locked_due_to_attempts",
+        "category": "Account & Login",
+        "keywords": [
+            "account locked",
+            "login error",
+            "too many attempts",
+            "netflix login failed",
+            "reset account"
+        ],
+        "content": {
+            "summary": "Your Netflix account may be temporarily locked due to multiple failed login attempts.",
+            "details": [
+                "Wait 15 minutes before trying again.",
+                "Use the 'Forgot Password' option to reset your login credentials.",
+                "If the issue persists, contact support to unlock your account manually."
+            ],
+            "response_template": "It looks like your account is temporarily locked due to too many login attempts. Please wait a few minutes and try again. You can also reset your password. Need help unlocking it? I’ve got you!"
+        },
+        "metadata": {
+            "audience": "customer_service",
+            "priority": "medium"
+        }
+    },
+    {
+        "title": "Subscription Not Updating - Payment Issue",
+        "intent": "subscription_payment_issue",
+        "category": "Billing",
+        "keywords": [
+            "payment failed",
+            "subscription not active",
+            "renewal issue",
+            "netflix payment problem",
+            "card declined"
+        ],
+        "content": {
+            "summary": "Payment issues can prevent your subscription from renewing successfully.",
+            "details": [
+                "Check if your card on file is expired or has insufficient funds.",
+                "Update your payment method in the billing section.",
+                "Retry the payment manually if needed.",
+                "Wait a few minutes after updating for changes to take effect."
+            ],
+            "response_template": "Looks like your subscription didn’t renew due to a payment issue. Please check your card details and update your payment method. You can retry the payment anytime. Let me know if you need a hand!"
+        },
+        "metadata": {
+            "audience": "customer_service",
+            "priority": "high"
+        }
+    },
+    {
+        "title": "Profile Customization - Avatar Not Updating",
+        "intent": "profile_avatar_update_issue",
+        "category": "Profiles & Settings",
+        "keywords": [
+            "change avatar",
+            "profile picture not updating",
+            "netflix icon issue",
+            "avatar stuck",
+            "profile customization"
+        ],
+        "content": {
+            "summary": "Sometimes profile icons may not update due to cache or sync delays.",
+            "details": [
+                "Try changing the avatar from a different device.",
+                "Log out and log back in to refresh the changes.",
+                "Clear app cache or reload the web version."
+            ],
+            "response_template": "Your avatar might not be updating due to a sync delay. Try changing it from another device or logging out and back in. It should reflect soon—let me know if it doesn’t!"
+        },
+        "metadata": {
+            "audience": "customer_service",
+            "priority": "low"
+        }
+    },
+    {
+        "title": "Parental Controls - PIN Not Working",
+        "intent": "parental_control_pin_issue",
+        "category": "Parental Controls",
+        "keywords": [
+            "pin not working",
+            "parental control broken",
+            "reset netflix pin",
+            "kids profile pin issue",
+            "can’t access profile"
+        ],
+        "content": {
+            "summary": "Parental control PINs may fail if incorrectly entered multiple times or out-of-sync with account settings.",
+            "details": [
+                "Ensure you’re entering the correct 4-digit PIN.",
+                "Reset the PIN from the account settings if forgotten.",
+                "Check if profile restrictions or maturity ratings are affecting access."
+            ],
+            "response_template": "Looks like the parental PIN isn’t working. Try resetting it from the account settings page. Double-check maturity settings too. I can help you reset it if needed!"
+        },
+        "metadata": {
+            "audience": "customer_service",
+            "priority": "medium"
+        }
+    },
+    {
+        "title": "Device Limit Reached - Can't Stream",
+        "intent": "device_limit_reached",
+        "category": "Streaming",
+        "keywords": [
+            "too many devices",
+            "can't stream",
+            "device limit netflix",
+            "upgrade plan",
+            "streaming blocked"
+        ],
+        "content": {
+            "summary": "Your Netflix plan may limit how many devices can stream simultaneously.",
+            "details": [
+                "Check your current plan to see how many streams are allowed.",
+                "Stop streaming from one of the active devices.",
+                "Upgrade your plan if you need more simultaneous streams."
+            ],
+            "response_template": "You’ve hit the device limit for your plan. Try stopping playback on another device, or consider upgrading your plan for more streams. Let me know how I can help!"
+        },
+        "metadata": {
+            "audience": "customer_service",
+            "priority": "medium"
+        }
+    },
+    {
+        "title": "Order Not Delivered - Tracking Shows Delivered",
+        "intent": "order_not_received_but_marked_delivered",
+        "category": "Orders & Delivery",
+        "keywords": [
+            "order not received",
+            "package marked delivered",
+            "missing amazon order",
+            "delivery issue",
+            "tracking shows delivered"
+        ],
+        "content": {
+            "summary": "Sometimes packages show as delivered but are not physically received due to courier errors or misplacement.",
+            "details": [
+                "Check around your delivery area or with neighbors.",
+                "Wait 24 hours—some carriers mark packages early.",
+                "If still not received, report the issue from your Orders page or contact support."
+            ],
+            "response_template": "Sorry your package hasn’t arrived! Sometimes couriers mark deliveries early. Please check nearby or wait a few hours. If it's still missing, I’ll help you file a claim."
+        },
+        "metadata": {
+            "audience": "customer_service",
+            "priority": "high"
+        }
+    },
+    {
+        "title": "Refund Not Received - Processing Delay",
+        "intent": "refund_processing_delay",
+        "category": "Billing & Refunds",
+        "keywords": [
+            "refund not received",
+            "amazon refund delay",
+            "return processed but no refund",
+            "money not credited",
+            "where is my refund"
+        ],
+        "content": {
+            "summary": "Refunds may take 3–5 business days after processing to reflect in your bank account.",
+            "details": [
+                "Confirm that the return was received by Amazon.",
+                "Check the status of your refund in the Orders section.",
+                "Refunds to credit cards may take 3–5 business days.",
+                "If it's been longer, contact support with your order ID."
+            ],
+            "response_template": "Your refund might still be processing. It usually takes 3–5 business days to reflect. If it’s been longer, I’ll gladly check the status for you!"
+        },
+        "metadata": {
+            "audience": "customer_service",
+            "priority": "medium"
+        }
+    },
+    {
+        "title": "Wrong Item Received",
+        "intent": "wrong_item_shipped",
+        "category": "Orders & Delivery",
+        "keywords": [
+            "wrong item delivered",
+            "incorrect product",
+            "received something else",
+            "wrong order amazon",
+            "return wrong product"
+        ],
+        "content": {
+            "summary": "If the wrong item was shipped, you can request a replacement or refund through the Orders section.",
+            "details": [
+                "Go to 'Your Orders' and select 'Return or Replace'.",
+                "Choose 'Wrong item received' as the reason.",
+                "Print the return label and send it back.",
+                "You’ll get a replacement or refund after return is processed."
+            ],
+            "response_template": "Sorry you got the wrong item! You can start a return or replacement from your Orders page. I’m here if you’d like me to walk you through it."
+        },
+        "metadata": {
+            "audience": "customer_service",
+            "priority": "medium"
+        }
+    },
+    {
+        "title": "Prime Video Not Streaming",
+        "intent": "prime_video_streaming_issue",
+        "category": "Digital Services",
+        "keywords": [
+            "prime video not working",
+            "can't stream",
+            "amazon video buffering",
+            "prime video error",
+            "streaming issue"
+        ],
+        "content": {
+            "summary": "Prime Video may not stream due to device issues, outdated app, or low internet speed.",
+            "details": [
+                "Restart your device and check your internet connection.",
+                "Update the Prime Video app or reinstall it.",
+                "Try streaming on another device to isolate the issue."
+            ],
+            "response_template": "Let’s fix your streaming issue! Please restart your device, check your Wi-Fi, and update or reinstall the Prime Video app. Still stuck? I’ll dig deeper with you!"
+        },
+        "metadata": {
+            "audience": "customer_service",
+            "priority": "high"
+        }
+    },
+    {
+        "title": "Payment Declined - Card Not Charged",
+        "intent": "payment_method_declined",
+        "category": "Billing & Refunds",
+        "keywords": [
+            "payment declined",
+            "card not working",
+            "order not processing",
+            "amazon card declined",
+            "update payment"
+        ],
+        "content": {
+            "summary": "Your payment may be declined due to invalid details, insufficient funds, or card restrictions.",
+            "details": [
+                "Check if your card is expired or blocked.",
+                "Update your payment method from the Wallet section.",
+                "Try a different card or contact your bank."
+            ],
+            "response_template": "Your payment didn’t go through. Double-check your card details or try a different method. Need help updating your payment info? I’m here!"
+        },
+        "metadata": {
+            "audience": "customer_service",
+            "priority": "medium"
+        }
+    },
+    {
+        "title": "Change Delivery Address After Placing Order",
+        "intent": "change_shipping_address",
+        "category": "Orders & Delivery",
+        "keywords": [
+            "change address",
+            "wrong delivery address",
+            "edit shipping address",
+            "update amazon order",
+            "shipping mistake"
+        ],
+        "content": {
+            "summary": "You can change the delivery address if the order hasn’t shipped yet.",
+            "details": [
+                "Go to ‘Your Orders’ and select the item.",
+                "If the order is still processing, you’ll see an option to edit the address.",
+                "Once shipped, you’ll need to contact the courier or cancel & reorder."
+            ],
+            "response_template": "Need to update your delivery address? If your order hasn’t shipped, you can still change it in Your Orders. I can also help you cancel and re-order if needed!"
+        },
+        "metadata": {
+            "audience": "customer_service",
+            "priority": "medium"
+        }
+    }
+]
